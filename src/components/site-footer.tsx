@@ -32,7 +32,7 @@ export function SiteFooter() {
           <div>
             <h3 className="mb-6 text-xl font-bold">About Me</h3>
             <p className="mb-6 text-sm leading-relaxed text-gray-400">
-              I'm <span className="font-semibold text-white">{portfolioData.name}</span>, a{" "}
+              I&apos;m <span className="font-semibold text-white">{portfolioData.name}</span>, a{" "}
               {portfolioData.title.toLowerCase()}. I build clean, efficient, and scalable web
               applications and RESTful APIs.
             </p>

@@ -12,9 +12,7 @@ import { HeroSection } from "@/components/sections/hero";
 import { ProjectsSection } from "@/components/sections/projects";
 
 const SkillsSection = dynamic(() => import("@/components/sections/skills").then((mod) => mod.SkillsSection));
-const GithubProjects = dynamic(() => import("@/components/sections/github-projects").then((mod) => mod.GithubProjects), {
-  ssr: false
-});
+const GithubProjects = dynamic(() => import("@/components/sections/github-projects").then((mod) => mod.GithubProjects));
 
 export default function HomePage() {
   return (
