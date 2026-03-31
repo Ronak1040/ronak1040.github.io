@@ -1,0 +1,1 @@
+Place your actual resume PDF here and rename it to resume.pdf, then update src/data/cv-data.ts resumeHref if needed.
