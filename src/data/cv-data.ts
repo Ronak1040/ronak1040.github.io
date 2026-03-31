@@ -10,6 +10,8 @@ export const portfolioData: PortfolioData = {
   profileImageAlt: "Portrait of Ronak Patel",
   email: "ronak1040@gmail.com",
   phone: "+91-8980080954",
+  address: "Vadodara, Gujarat, India - 390011",
+  whatsapp: "+91-8980080954",
   resumeHref: "/Ronak_Patel_CV_with_photo.pdf",
   heroStats: [
     { label: "Years Experience", value: "5.6" },
@@ -170,7 +172,17 @@ export const portfolioData: PortfolioData = {
       title: "Remote Metering Hub (IoT Data Monitoring Platform)",
       description:
         "Designed and developed a scalable web-based remote metering platform for real-time monitoring, analysis, and management of energy consumption data across multiple locations and devices. Built interactive multi-variable dashboards (kW, Voltage, Current, Frequency), dynamic analytics with hourly/daily/monthly aggregations, scheduled and on-demand reports (CSV/Excel/PDF), rule-based threshold alerts with automated email notifications, RBAC for Super Admin/Admin/Consumer roles with secure data isolation, location and virtual meter management, geospatial map visualization, and optimized APIs/query pipelines for high-frequency IoT data streams. Impact: enabled centralized monitoring of distributed meters, improved operational efficiency through reporting and alert automation, and reduced manual intervention in energy tracking and analysis.",
-      tags: ["Node.js", "NestJS", "React", "MongoDB", "PostgreSQL", "AWS", "WebSockets", "GraphQL", "REST APIs"],
+      tags: [
+        "Node.js",
+        "NestJS",
+        "React",
+        "MongoDB",
+        "PostgreSQL",
+        "AWS",
+        "WebSockets",
+        "GraphQL",
+        "REST APIs",
+      ],
       category: "Full Stack",
     },
   ],

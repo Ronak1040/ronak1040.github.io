@@ -55,6 +55,13 @@ export type BlogPost = {
   date: string;
 };
 
+export type ContactDetail = {
+  icon: string;
+  label: string;
+  value: string;
+  href?: string;
+};
+
 export type PortfolioData = {
   name: string;
   title: string;
@@ -64,6 +71,8 @@ export type PortfolioData = {
   profileImageAlt: string;
   email: string;
   phone?: string;
+  address?: string;
+  whatsapp?: string;
   resumeHref: string;
   heroStats: Array<{ label: string; value: string }>;
   about: string[];
