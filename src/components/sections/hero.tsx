@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Download, MapPin } from "lucide-react";
 
@@ -39,9 +38,9 @@ export function HeroSection() {
                 </a>
               </Button>
               <Button variant="outline" asChild size="lg">
-                <Link href={portfolioData.resumeHref}>
+                <a href={portfolioData.resumeHref} target="_blank" rel="noopener noreferrer">
                   Download Resume <Download className="ml-2 h-4 w-4" />
-                </Link>
+                </a>
               </Button>
             </div>
           </Reveal>
