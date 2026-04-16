@@ -12,7 +12,7 @@ export const portfolioData: PortfolioData = {
   phone: "+91-8980080954",
   address: "Vadodara, Gujarat, India - 390011",
   whatsapp: "+91-8980080954",
-  resumeHref: "/Ronak_Patel_CV_with_photo.pdf",
+  resumeHref: "/Ronak_Patel_CV.pdf",
   heroStats: [
     { label: "Years Experience", value: "5.6" },
     { label: "Work Roles", value: "5" },
@@ -196,7 +196,15 @@ export const portfolioData: PortfolioData = {
       title: "Income-Expense",
       description:
         "Developed a user-friendly financial management platform for tracking incomes, expenses, receivables, and payables with comprehensive reporting capabilities. Resulted in 20% increase in user engagement and 15% decrease in time spent on financial tracking tasks. Enabled efficient receivables and payables management, resulting in 25% reduction in overdue payments and 20% increase in on-time payments.",
-      tags: ["PHP", "Laravel", "Flask", "JavaScript", "MySQL", "MongoDB", "AWS"],
+      tags: [
+        "PHP",
+        "Laravel",
+        "Flask",
+        "JavaScript",
+        "MySQL",
+        "MongoDB",
+        "AWS",
+      ],
       category: "Full Stack",
     },
     {
