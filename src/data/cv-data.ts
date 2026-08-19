@@ -6,7 +6,7 @@ export const portfolioData: PortfolioData = {
   tagline:
     "Senior Software Engineer with 6 years of experience designing, developing, and deploying scalable backend systems, cloud-native applications, and microservices architectures.",
   location: "India",
-  profileImageSrc: "/my-photo.jpeg",
+  profileImageSrc: "/Profile_Photo.png",
   profileImageAlt: "Portrait of Ronak Patel",
   email: "ronak1040@gmail.com",
   phone: "+91-8980080954",
