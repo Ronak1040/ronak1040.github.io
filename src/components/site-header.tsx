@@ -48,7 +48,7 @@ export function SiteHeader() {
             <span className="font-mono text-xs font-black">RP</span>
           </div>
           <span className="font-semibold text-foreground tracking-tight">
-            Ronak<span className="text-primary font-bold">.dev</span>
+            <span className="text-primary font-bold">Ronak Patel</span>
           </span>
         </Link>
 
