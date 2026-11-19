@@ -15,7 +15,7 @@ export const portfolioData: PortfolioData = {
   resumeHref: "/Ronak_Patel_CV_2026.pdf",
   heroStats: [
     { label: "Years Experience", value: "6" },
-    { label: "Work Roles", value: "7" },
+    { label: "Work Roles", value: "6" },
     { label: "Key Projects", value: "5" },
   ],
   about: [
@@ -54,13 +54,12 @@ export const portfolioData: PortfolioData = {
         { name: "PostgreSQL", level: 88 },
         { name: "MySQL", level: 90 },
         { name: "MongoDB", level: 88 },
-        { name: "MSSQL", level: 80 },
       ],
     },
     {
       category: "Cloud & Infrastructure",
       skills: [
-        { name: "AWS (EC2, S3, Lambda, ALB, IAM)", level: 88 },
+        { name: "AWS (EC2, S3, IAM, Route53, ALB, Lambda, CloudWatch)", level: 88 },
         { name: "DigitalOcean", level: 82 },
         { name: "Linux Server Administration", level: 85 },
         { name: "NGINX", level: 82 },
@@ -106,34 +105,15 @@ export const portfolioData: PortfolioData = {
       start: "Jan 2026",
       end: "Present",
       summary:
-        "Owned and led the complete software development lifecycle for the Champz sports booking platform, building scalable backend services, match booking systems, and real-time features.",
+      "Owned and led the end-to-end SDLC for the Champz sports booking platform and a Remote Metering IoT platform, developing scalable backend services, real-time event-driven systems, and automated deployment pipelines.",
       highlights: [
         "Owned and led the complete software development lifecycle for the Champz sports booking platform, from requirement analysis and system architecture to deployment and production support.",
         "Directed the end-to-end development of a scalable online match booking system, enabling users to discover and book upcoming matches, create teams, manage player registrations, and participate in tournaments.",
-        "Designed and developed scalable backend services using Python, Flask, PostgreSQL, Redis, WebSockets, and RESTful APIs, delivering high-performance and reliable application services.",
+        "Designed and developed scalable backend services using Python, Node.js, GraphQL, Flask, PostgreSQL, Redis, WebSockets, and RESTful APIs, delivering high-performance and reliable application services.",
         "Implemented secure online payment gateway integration for match bookings and tournament registrations, ensuring seamless transaction processing and payment reconciliation.",
         "Built real-time features for match updates, team management, and player coordination using WebSockets and Redis, providing a responsive user experience.",
         "Established deployment pipelines, cloud infrastructure, monitoring, and operational workflows to ensure high availability, scalability, and production reliability.",
         "Successfully delivered the platform within project timelines while serving as the primary technical point of contact for clients, stakeholders, and deployment teams throughout the project lifecycle.",
-      ],
-      technologies: [
-        "Python",
-        "Flask",
-        "PostgreSQL",
-        "Redis",
-        "WebSockets",
-        "REST APIs",
-      ],
-    },
-    {
-      company: "LogiQuad Solutions",
-      role: "Senior Software Engineer (Contract)",
-      location: "Remote",
-      start: "Feb 2026",
-      end: "Apr 2026",
-      summary:
-        "Architected and delivered an event-driven Remote Metering IoT platform to process real-time telemetry data from connected devices.",
-      highlights: [
         "Owned and led the complete software development lifecycle for a Remote Metering IoT platform, from requirement analysis and architecture design to deployment and production support.",
         "Directed a cross-functional development effort, making key architectural and technical decisions for backend services, device communication, and cloud infrastructure.",
         "Built scalable event-driven systems using MQTT, WebSockets, Python, Node.js, Redis, MongoDB, and PostgreSQL to process real-time telemetry data from connected devices.",
@@ -144,11 +124,14 @@ export const portfolioData: PortfolioData = {
       technologies: [
         "Python",
         "Node.js",
-        "MQTT",
-        "WebSockets",
-        "Redis",
-        "MongoDB",
+        "GraphQL",
+        "Flask",
         "PostgreSQL",
+        "Redis",
+        "WebSockets",
+        "MQTT",
+        "MongoDB",
+        "REST APIs",
       ],
     },
     {
@@ -251,6 +234,7 @@ export const portfolioData: PortfolioData = {
         "PostgreSQL",
         "Redis",
         "AWS IoT",
+        "REST APIs",
       ],
       category: "Full Stack",
     },
@@ -272,8 +256,15 @@ export const portfolioData: PortfolioData = {
     {
       title: "Lechef B2B (B2B eCommerce Platform)",
       description:
-        "Designed and developed a B2B eCommerce platform supporting customer management, product catalogs, dynamic pricing, order processing, and inventory workflows. Implemented AI-powered product recommendation features, intelligent search capabilities using semantic search and NLP techniques, and automated product description generation using LLM APIs. Increased daily order processing volume by 50% while reducing order processing time by 40% and response times by 30%.",
-      tags: ["Flask", "Python", "Node.js", "NestJS", "MySQL", "MongoDB", "LLM APIs"],
+      "Designed and developed a B2B eCommerce platform supporting customer management, product catalogs, dynamic pricing, order processing, and inventory workflows. Implemented AI-powered product recommendation features based on customer purchasing behavior, intelligent search capabilities using semantic search and NLP techniques, and automated product description generation using LLM APIs. Increased daily order processing volume by 50% while reducing order processing time by 40% and response times by 30%.",
+      tags: [
+        "Node.js",
+        "NestJS",
+        "MySQL",
+        "GraphQL APIs",
+        "REST APIs",
+        "LLM APIs",
+      ],
       category: "Backend",
     },
     {
